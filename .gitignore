@@ -1,0 +1,22 @@
+# Pesos y artefactos binarios pesados
+*.keras
+*.h5
+*.pt
+*.pkl
+*.npy
+*.joblib
+
+# Salidas generadas por el notebook
+results/
+yolo_dataset/
+
+# Datos crudos
+data/
+chest_xray/
+
+# Caché y sistema
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
